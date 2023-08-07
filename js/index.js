@@ -4,8 +4,6 @@ function toggleMenu() {
 
   var menu = document.querySelector(".nav__list");
 
-  console.log(menu);
-
   // Toggle the 'active' class on the menu element
   menu.classList.toggle("active");
 
