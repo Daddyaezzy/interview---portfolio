@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fajobi Anselm Personal Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Font importation -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;700;900&display=swap"
+            rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+
+    <!-- CSS importation -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo-no-background.png" alt="logo">
+        </div>
+        
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+       
+        <nav class="nav">
+            <ul class="nav__list active">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header ends -->
+
+    <!-- Introduction  -->
+
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Fajobi Anselm</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Fullstack dev</p>
+        <img src="images/IMG_1853 5.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+    </section>
+
+
+
+    <!-- Introduction ends  -->
+    <!-- Services  -->
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Fullstack</h3>
+                <p> I build complete web applications, handling both front-end (HTML, CSS, JS, React) and back-end (Node.js, Express, MongoDB) development. Delivering seamless user experiences and scalable solutions.</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>As an ecommerce specialist, I create online stores tailored to your business needs. I integrate secure payment gateways, manage product catalogs, and optimize for smooth user journeys, ensuring a seamless shopping experience.</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>Frontend</h3>
+                <p>As a frontend expert, I craft visually appealing and responsive web interfaces. Using HTML, CSS, and JavaScript, I design intuitive layouts, implement interactive elements, and prioritize user-centric design for enhanced engagement.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+        
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- Services ends -->
+
+
+    <!-- About -->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Fullstack Developer</p>
+        
+        <div class="about-me__body">
+            <p>Hello, I'm Fajobi Anselm a Web Developer with a few years of experience and currently studying Cyber Security . I have acquired experience that has improved my productivity in the long run, and I am working towards perfection, having worked on a few projects with friends, This has impacted my skills, problem solving ability, communication ability and ability to carry out research pertaining to what is required of a job.</p>
+        </div>
+        
+        <img src="images/IMG_7716.JPG" alt="me" class="about-me__img">
+
+
+        <div class="my-pictures">
+            <div class="my-img">
+                <img src="images/myself2.png" alt="me">
+            </div>
+            <div class="my-img">
+                <img src="images/myself3.png" alt="">
+            </div>
+            <div class="my-img">
+                <img src="images/myself4.png" alt="">
+            </div>
+            <div class="my-img">
+                <img src="images/myself5.png" alt="">
+            </div>
+        </div>
+     </section>
+
+
+    <!-- About ends -->
+
+    <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                
+            </div>
+        </section>
+
+    <!-- My work ends -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:pulumbu11@gmail.com" class="footer__link">pulumbu11@gmail.com</a>
+        <ul class="social-list">
+            
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/anselm-fajobi-8ab5a623b">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/daddyaezzy?s=21&t=e_FqY7sZpmg_qqmAv7HYxg">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.github.com/daddyaezzy">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- Footer ends -->
+
+
+
+
+
+    <!-- JavaScript importation -->
+    <script src="js/index.js"></script>
+</body>
+</html>
